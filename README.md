@@ -29,12 +29,12 @@ Use text editors like Visual Studio Code for easier installation of dependencies
 
 ![ganac](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/e7065c6b-fc9a-4ec1-a9c2-b10fe2d51b55)
 
-5)In your truffle.config.js somewhere line 67 there change your port and network ID according to your Ganache network
+5)In your truffle.config.js somewhere line 67 there change your **port** and **network ID** according to your Ganache network
 
 
 ![same](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/3d4aab22-15ba-4174-ad53-fe36485bd9b8)
 
-6) Then in you Ganache Network copy any account address that you want to test with then go to deploy.js
+6) Then in you Ganache Network copy any account address that you want to test with then go to **deploy.js**
 ![deploy](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/5dbbb4a1-132e-4eed-8c6a-0a43ce98765e)
 
 paste the address that you copied to in line 8
