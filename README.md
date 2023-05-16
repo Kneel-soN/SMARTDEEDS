@@ -5,6 +5,7 @@ you can install it with this link
 
 and you need to install **node.js** too:
 https://nodejs.org/en
+select the one based on your operating system
 
 
 1) download the zip and extract it 
