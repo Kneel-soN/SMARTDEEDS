@@ -5,7 +5,7 @@ require("dotenv").config();
 const provider = new Web3.providers.HttpProvider("http://127.0.0.1:7545");
 const web3 = new Web3(provider);
 //account address not Primary key
-const tester = "0x930945385d65BA1be2728af2cEDf0D2fF1E7e557";
+const tester = "0x67B335873E3b99A3a5df97A80e91C87620F431c9";
 
 const abi = JSON.parse(
   fs.readFileSync("DonationToken_sol_DonationToken.abi", "utf-8")
