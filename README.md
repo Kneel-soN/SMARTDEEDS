@@ -1,4 +1,9 @@
 # SMARTDEEDS
+I have used **Ganache** to test this smart contract if you don't have **Ganache**
+you can install it with this link
+https://trufflesuite.com/ganache/
+
+
 1) Clone this Repository, use this command in your terminal or command prompt
 >git clone https://github.com/Kneel-soN/SMARTDEEDS.git
 
