@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  background-color: black;
+}
+.box1 {
+  margin-left: 20px;
+}
+
+.box2 {
+  margin-left: 42px;
+  margin-top: 5px;
+}
+
+.receiver {
+  color: white;
+}
+
+.value {
+  color: white;
+}
+.input {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 30px; /* Add margin to the top */
+  margin-bottom: 10px; /* Optional: Add margin to the bottom */
+}
+
+.status {
+  margin-top: 20px;
+  color: white;
+}

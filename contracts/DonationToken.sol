@@ -17,13 +17,13 @@ contract DonationToken {
         address indexed spender,
         uint256 value
     );
-
     event Donation(
         address indexed donor,
         address indexed receiver,
         uint256 value,
         uint256 date
     );
+    event Log(string message); // Custom logging event
 
     constructor(string memory _name, string memory _symbol) {
         name = _name;
@@ -50,6 +50,7 @@ contract DonationToken {
         balanceOf[_from] -= _value;
         balanceOf[_to] += _value;
         emit Transfer(_from, _to, _value);
+        emit Log("Transfer occurred"); // Example log statement
         assert(balanceOf[_from] + balanceOf[_to] == previousBalances);
     }
 
@@ -58,6 +59,7 @@ contract DonationToken {
         uint256 _value
     ) public returns (bool success) {
         _transfer(msg.sender, _to, _value);
+        emit Log("Transfer called"); // Example log statement
         return true;
     }
 
@@ -67,6 +69,7 @@ contract DonationToken {
     ) public returns (bool success) {
         allowance[msg.sender][_spender] = _value;
         emit Approval(msg.sender, _spender, _value);
+        emit Log("Approval granted"); // Example log statement
         return true;
     }
 
@@ -81,6 +84,7 @@ contract DonationToken {
         );
         allowance[_from][msg.sender] -= _value;
         _transfer(_from, _to, _value);
+        emit Log("TransferFrom called"); // Example log statement
         return true;
     }
 
@@ -89,14 +93,12 @@ contract DonationToken {
         uint256 _value,
         uint256 _date
     ) public returns (bool success) {
+        require(_receiver != address(0), "ERC20: Invalid receiver address");
+        require(_value > 0, "ERC20: Invalid donation value");
+
         _transfer(msg.sender, _receiver, _value);
         emit Donation(msg.sender, _receiver, _value, _date);
+        emit Log("Donation occurred"); // Example log statement
         return true;
-    }
-
-    function mint(address _to, uint256 _amount) public onlyOwner {
-        totalSupply += _amount;
-        balanceOf[_to] += _amount;
-        emit Transfer(address(0), _to, _amount);
     }
 }

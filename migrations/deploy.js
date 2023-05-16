@@ -5,7 +5,7 @@ require("dotenv").config();
 const provider = new Web3.providers.HttpProvider("http://127.0.0.1:7545");
 const web3 = new Web3(provider);
 //account address not Primary key
-const tester = "0x67B335873E3b99A3a5df97A80e91C87620F431c9";
+const tester = "0xa4bA378eBe291F6FBe647d3f56B3221Ba50685d9";
 
 const abi = JSON.parse(
   fs.readFileSync("DonationToken_sol_DonationToken.abi", "utf-8")
@@ -34,4 +34,20 @@ contract
   .send(options)
   .on("receipt", function (receipt) {
     console.log("Contract deployed at:", receipt.contractAddress);
+    // Set the address of the deployed contract
+    contract.options.address = receipt.contractAddress;
+
+    // Call the donate function after deployment
+    contract.methods
+      .donate(receiver, value)
+      .send(options)
+      .on("receipt", function (donationReceipt) {
+        console.log(
+          "Donation successful. Transaction receipt:",
+          donationReceipt
+        );
+      })
+      .on("error", function (error) {
+        console.error("Error occurred during donation:", error);
+      });
   });
