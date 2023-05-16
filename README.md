@@ -39,3 +39,10 @@ Use text editors like Visual Studio Code for easier installation of dependencies
 
 paste the address that you copied to in line 8
 >const tester = "0x67B335873E3b99A3a5df97A80e91C87620F431c9";
+
+7) Output should be something like this
+![out](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/a9d75a04-fc4e-42d1-a27f-ec85d21e1c31)
+
+
+
+
