@@ -17,6 +17,9 @@ Use text editors like Visual Studio Code for easier installation of dependencies
 2) In your termnial, to install the dependencies needed 
 , do **npm install** 
  > or do **yarn install** if you prefer yarn to install the needed dependencies
+-npm install web3
+-npm install dotenv
+-npm install solc
 
 3) Make your own private key/s in your .env file
   
@@ -25,3 +28,5 @@ Use text editors like Visual Studio Code for easier installation of dependencies
 4) Start your Ganache, in my testing i clicked Quickstart
 
 ![ganac](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/e7065c6b-fc9a-4ec1-a9c2-b10fe2d51b55)
+
+5)In your truffle.config.js somewhere line 67 there change your port and network ID according to your Ganache network
