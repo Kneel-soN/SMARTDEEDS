@@ -19,3 +19,7 @@ you can install it with this link
 3) Make your own private key/s in your .env file
   
 ![PK](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/2eb7b4de-3bcd-4c5b-94a9-b54eb3d58fc5)
+
+4)Start your Ganache, in my testing i clicked Quickstart
+
+![ganac](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/d9e302c2-b8ba-4d4a-bfd4-a1e689ff0f4e)
