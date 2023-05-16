@@ -9,6 +9,7 @@ you can install it with this link
 
 ![download-zip](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/6c5bc73a-a623-4315-a874-606dde8dfad0)
 
+Use text editors like Visual Studio Code for easier installation of dependencies
 2) to install the dependencies needed 
 , do **npm install** 
  > or do **yarn install** if you prefer yarn to install the needed dependencies
