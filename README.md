@@ -1,5 +1,5 @@
 # SMARTDEEDS
-1) Clone this Repository
+1) Clone this Repository, use this command in your terminal or command prompt
 >git clone https://github.com/Kneel-soN/SMARTDEEDS.git
 
  or download the zip
