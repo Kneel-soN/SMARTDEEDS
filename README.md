@@ -18,6 +18,6 @@ Use text editors like Visual Studio Code for easier installation of dependencies
   
 ![PK](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/2eb7b4de-3bcd-4c5b-94a9-b54eb3d58fc5)
 
-4)Start your Ganache, in my testing i clicked Quickstart
+4) Start your Ganache, in my testing i clicked Quickstart
 
 ![ganac](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/e7065c6b-fc9a-4ec1-a9c2-b10fe2d51b55)
