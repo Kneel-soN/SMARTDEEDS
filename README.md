@@ -22,4 +22,4 @@ you can install it with this link
 
 4)Start your Ganache, in my testing i clicked Quickstart
 
-![ganac](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/d9e302c2-b8ba-4d4a-bfd4-a1e689ff0f4e)
+![ganac](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/e7065c6b-fc9a-4ec1-a9c2-b10fe2d51b55)
