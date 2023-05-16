@@ -3,6 +3,9 @@ I have used **Ganache** to test this smart contract if you don't have **Ganache*
 you can install it with this link
 : https://trufflesuite.com/ganache/
 
+and you need to install node.js too:
+https://nodejs.org/en
+
 
 1) download the zip and extract it 
  
