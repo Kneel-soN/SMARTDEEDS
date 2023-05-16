@@ -4,7 +4,8 @@
 
  or download the zip
  
-![download-zip](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/aeea9fb3-6a78-45cf-8edd-fed5ab136657)
+
+![download-zip](https://github.com/Kneel-soN/SMARTDEEDS/assets/125803337/6c5bc73a-a623-4315-a874-606dde8dfad0)
 
 2) to install the dependencies needed 
  do **npm install** or 
